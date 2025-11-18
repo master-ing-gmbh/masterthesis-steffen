@@ -1,0 +1,4 @@
+masterthesis-steffen.code-workspace
+.venv/
+*.env
+.env
