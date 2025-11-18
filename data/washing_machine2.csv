@@ -1,0 +1,97 @@
+﻿product,subsystem,system_element,function,failure_mode,failure_cause,failure_effect,occurrence_rating,detection_rating,severity_rating,measure_type,measure_name,measure_description
+Washing Machine,Motor System,Main Motor,Rotate drum,Motor fails to start,Electrical connection failure,No washing cycle,4,3,9,preventive,Regular connection inspection,Monthly inspection of all electrical connections
+Washing Machine,Motor System,Main Motor,Rotate drum,Motor fails to start,Electrical connection failure,No washing cycle,4,3,9,detective,Electrical continuity testing,Test electrical continuity during maintenance
+Washing Machine,Motor System,Main Motor,Rotate drum,Motor fails to start,Motor winding burnout,No washing cycle,2,1,9,preventive,Temperature monitoring,Install temperature sensors on motor windings
+Washing Machine,Motor System,Main Motor,Rotate drum,Motor fails to start,Motor winding burnout,No washing cycle,2,1,9,detective,Thermal imaging inspection,Use thermal camera for motor inspection
+Washing Machine,Motor System,Main Motor,Rotate drum,Motor fails to start,Start capacitor failure,No washing cycle,4,3,9,preventive,Capacitor replacement schedule,Replace start capacitor every 3 years
+Washing Machine,Motor System,Main Motor,Rotate drum,Motor fails to start,Start capacitor failure,No washing cycle,4,3,9,detective,Capacitor testing,Test capacitor during routine maintenance
+Washing Machine,Motor System,Main Motor,Rotate drum,Motor overheating,Blocked ventilation,Motor damage,3,4,8,preventive,Ventilation cleaning,Clean motor vents quarterly
+Washing Machine,Motor System,Main Motor,Rotate drum,Motor overheating,Blocked ventilation,Motor damage,3,4,8,detective,Temperature monitoring,Monitor motor operating temperature
+Washing Machine,Motor System,Main Motor,Rotate drum,Motor overheating,Overloading,Motor damage,5,4,8,preventive,Load monitoring system,Install automatic load detection
+Washing Machine,Motor System,Main Motor,Rotate drum,Motor overheating,Overloading,Motor damage,5,4,8,detective,Current monitoring,Monitor motor current draw
+Washing Machine,Motor System,Main Motor,Rotate drum,Excessive vibration,Motor mount loosening,Noise and instability,4,8,6,preventive,Mount inspection,Check motor mounts during service
+Washing Machine,Motor System,Main Motor,Rotate drum,Excessive vibration,Motor mount loosening,Noise and instability,4,8,6,detective,Vibration monitoring,Install vibration sensors
+Washing Machine,Motor System,Main Motor,Rotate drum,Excessive vibration,Motor imbalance,Noise and instability,3,8,6,preventive,Motor balancing,Balance motor during installation
+Washing Machine,Motor System,Main Motor,Rotate drum,Excessive vibration,Motor imbalance,Noise and instability,3,8,6,detective,Vibration analysis,Perform vibration analysis testing
+Washing Machine,Motor System,Main Motor,Control speed,Speed control failure,Controller malfunction,Incorrect wash speed,3,5,7,preventive,Controller replacement schedule,Replace speed controller every 5 years
+Washing Machine,Motor System,Main Motor,Control speed,Speed control failure,Controller malfunction,Incorrect wash speed,3,5,7,detective,Speed monitoring,Monitor actual motor speed vs setpoint
+Washing Machine,Motor System,Main Motor,Control speed,Speed control failure,Speed sensor failure,Incorrect wash speed,4,4,7,preventive,Sensor calibration,Calibrate speed sensors annually
+Washing Machine,Motor System,Main Motor,Control speed,Speed control failure,Speed sensor failure,Incorrect wash speed,4,4,7,detective,Sensor testing,Test speed sensor during maintenance
+Washing Machine,Motor System,Drive Belt,Transfer power,Belt breaks,Belt wear,No drum rotation,4,1,8,preventive,Belt replacement schedule,Replace drive belt every 2 years
+Washing Machine,Motor System,Drive Belt,Transfer power,Belt breaks,Belt wear,No drum rotation,4,1,8,detective,Belt inspection,Visual inspection of belt condition
+Washing Machine,Motor System,Drive Belt,Transfer power,Belt breaks,Excessive tension,No drum rotation,2,1,8,preventive,Tension adjustment,Proper belt tension during installation
+Washing Machine,Motor System,Drive Belt,Transfer power,Belt breaks,Excessive tension,No drum rotation,2,1,8,detective,Tension measurement,Measure belt tension during service
+Washing Machine,Motor System,Drive Belt,Transfer power,Belt slips,Belt stretching,Reduced drum speed,5,6,6,preventive,Quality belt selection,Use high-quality belts
+Washing Machine,Motor System,Drive Belt,Transfer power,Belt slips,Belt stretching,Reduced drum speed,5,6,6,detective,Performance monitoring,Monitor drum speed vs motor speed
+Washing Machine,Motor System,Drive Belt,Transfer power,Belt slips,Pulley wear,Reduced drum speed,3,6,6,preventive,Pulley maintenance,Resurface pulleys during service
+Washing Machine,Motor System,Drive Belt,Transfer power,Belt slips,Pulley wear,Reduced drum speed,3,6,6,detective,Pulley inspection,Inspect pulley condition regularly
+Washing Machine,Motor System,Motor Controller,Control motor operation,Controller fails,Electronic component failure,No motor control,2,2,9,preventive,Environmental protection,Protect controller from moisture
+Washing Machine,Motor System,Motor Controller,Control motor operation,Controller fails,Electronic component failure,No motor control,2,2,9,detective,Diagnostic monitoring,Built-in controller diagnostics
+Washing Machine,Motor System,Motor Controller,Control motor operation,Intermittent operation,Loose connections,Erratic motor behavior,4,5,7,preventive,Connection securing,Use thread-locking compound on connections
+Washing Machine,Motor System,Motor Controller,Control motor operation,Intermittent operation,Loose connections,Erratic motor behavior,4,5,7,detective,Connection testing,Test all connections during service
+Washing Machine,Motor System,Motor Controller,Provide motor protection,Overcurrent protection fails,Relay failure,Motor damage risk,3,3,8,preventive,Relay replacement,Replace protection relays every 4 years
+Washing Machine,Motor System,Motor Controller,Provide motor protection,Overcurrent protection fails,Relay failure,Motor damage risk,3,3,8,detective,Protection testing,Test overcurrent protection monthly
+Washing Machine,Water System,Water Pump,Circulate wash water,Pump fails to operate,Pump motor failure,No water circulation,3,2,9,preventive,Motor maintenance,Lubricate pump motor bearings
+Washing Machine,Water System,Water Pump,Circulate wash water,Pump fails to operate,Pump motor failure,No water circulation,3,2,9,detective,Motor monitoring,Monitor pump motor current
+Washing Machine,Water System,Water Pump,Circulate wash water,Pump fails to operate,Impeller blockage,No water circulation,4,3,9,preventive,Water filtration,Install water filter before pump
+Washing Machine,Water System,Water Pump,Circulate wash water,Pump fails to operate,Impeller blockage,No water circulation,4,3,9,detective,Flow monitoring,Monitor water flow rate
+Washing Machine,Water System,Water Pump,Circulate wash water,Reduced pumping capacity,Impeller wear,Poor washing performance,5,4,6,preventive,Water quality control,Use filtered water to reduce wear
+Washing Machine,Water System,Water Pump,Circulate wash water,Reduced pumping capacity,Impeller wear,Poor washing performance,5,4,6,detective,Performance testing,Test pump capacity regularly
+Washing Machine,Water System,Water Pump,Circulate wash water,Water leakage,Seal failure,Water damage,4,6,7,preventive,Seal replacement,Replace pump seals every 3 years
+Washing Machine,Water System,Water Pump,Circulate wash water,Water leakage,Seal failure,Water damage,4,6,7,detective,Leak detection,Install water leak sensors
+Washing Machine,Water System,Water Pump,Drain water,Drain pump fails,Pump blockage,Water remains in drum,4,2,8,preventive,Lint filtering,Install lint filter before drain pump
+Washing Machine,Water System,Water Pump,Drain water,Drain pump fails,Pump blockage,Water remains in drum,4,2,8,detective,Pump inspection,Regular drain pump inspection
+Washing Machine,Water System,Water Pump,Drain water,Drain pump fails,Pump motor failure,Water remains in drum,3,2,8,preventive,Motor protection,Install pump motor overload protection
+Washing Machine,Water System,Water Pump,Drain water,Drain pump fails,Pump motor failure,Water remains in drum,3,2,8,detective,Motor monitoring,Monitor drain pump motor status
+Washing Machine,Water System,Inlet Valve,Control water entry,Valve fails to open,Solenoid failure,No water fill,3,3,9,preventive,Solenoid replacement,Replace solenoid every 4 years
+Washing Machine,Water System,Inlet Valve,Control water entry,Valve fails to open,Solenoid failure,No water fill,3,3,9,detective,Valve testing,Test inlet valve operation monthly
+Washing Machine,Water System,Inlet Valve,Control water entry,Valve fails to close,Valve seat damage,Water overflow,4,4,8,preventive,Water pressure regulation,Install pressure regulator
+Washing Machine,Water System,Inlet Valve,Control water entry,Valve fails to close,Valve seat damage,Water overflow,4,4,8,detective,Level monitoring,Monitor water level continuously
+Washing Machine,Water System,Inlet Valve,Filter incoming water,Valve clogging,Debris accumulation,Reduced water flow,6,5,5,preventive,Water pre-filtering,Install whole-house water filter
+Washing Machine,Water System,Inlet Valve,Filter incoming water,Valve clogging,Debris accumulation,Reduced water flow,6,5,5,detective,Flow monitoring,Monitor inlet water flow rate
+Washing Machine,Water System,Water Level Sensor,Monitor water level,Incorrect level reading,Sensor drift,Incorrect water amount,4,4,7,preventive,Sensor calibration,Calibrate level sensor annually
+Washing Machine,Water System,Water Level Sensor,Monitor water level,Incorrect level reading,Sensor drift,Incorrect water amount,4,4,7,detective,Level verification,Cross-check with backup sensor
+Washing Machine,Water System,Water Level Sensor,Monitor water level,Sensor failure,Electronic malfunction,No level detection,3,3,8,preventive,Environmental protection,Protect sensor from moisture
+Washing Machine,Water System,Water Level Sensor,Monitor water level,Sensor failure,Electronic malfunction,No level detection,3,3,8,detective,Sensor diagnostics,Built-in sensor self-test
+Washing Machine,Water System,Drain Hose,Remove waste water,Hose blockage,Lint accumulation,Poor drainage,5,3,6,preventive,Regular cleaning,Clean drain hose monthly
+Washing Machine,Water System,Drain Hose,Remove waste water,Hose blockage,Lint accumulation,Poor drainage,5,3,6,detective,Drainage monitoring,Monitor drain time and flow
+Washing Machine,Water System,Drain Hose,Remove waste water,Hose damage,Physical wear,Water leakage,4,6,7,preventive,Hose replacement,Replace drain hose every 5 years
+Washing Machine,Water System,Drain Hose,Remove waste water,Hose damage,Physical wear,Water leakage,4,6,7,detective,Visual inspection,Inspect hose condition during service
+Washing Machine,Water System,Water Temperature Sensor,Monitor water temperature,Temperature reading error,Sensor failure,Incorrect wash temperature,3,4,6,preventive,Sensor protection,Protect sensor from scale buildup
+Washing Machine,Water System,Water Temperature Sensor,Monitor water temperature,Temperature reading error,Sensor failure,Incorrect wash temperature,3,4,6,detective,Temperature verification,Cross-check with backup thermometer
+Washing Machine,Water System,Hot Water Heater,Heat wash water,Heater fails,Heating element burnout,No hot water,3,2,7,preventive,Element maintenance,Descale heating element regularly
+Washing Machine,Water System,Hot Water Heater,Heat wash water,Heater fails,Heating element burnout,No hot water,3,2,7,detective,Element testing,Test heating element resistance
+Washing Machine,Water System,Hot Water Heater,Heat wash water,Overheating,Thermostat failure,Excessive temperature,3,4,8,preventive,Thermostat calibration,Calibrate thermostat annually
+Washing Machine,Water System,Hot Water Heater,Heat wash water,Overheating,Thermostat failure,Excessive temperature,3,4,8,detective,Temperature monitoring,Monitor water temperature continuously
+Washing Machine,Control System,Main Control Board,Coordinate all functions,Complete system failure,Board failure,No machine operation,2,1,10,preventive,Environmental protection,Protect control board from moisture
+Washing Machine,Control System,Main Control Board,Coordinate all functions,Complete system failure,Board failure,No machine operation,2,1,10,detective,System diagnostics,Built-in system self-test
+Washing Machine,Control System,Main Control Board,Execute wash programs,Program execution error,Software corruption,Incorrect wash cycle,2,5,7,preventive,Software backup,Maintain firmware backup
+Washing Machine,Control System,Main Control Board,Execute wash programs,Program execution error,Software corruption,Incorrect wash cycle,2,5,7,detective,Program verification,Verify program execution steps
+Washing Machine,Control System,Main Control Board,Process user inputs,Unresponsive to commands,Input circuit failure,No user control,3,4,8,preventive,Circuit protection,Install input circuit protection
+Washing Machine,Control System,Main Control Board,Process user inputs,Unresponsive to commands,Input circuit failure,No user control,3,4,8,detective,Input testing,Test user input responsiveness
+Washing Machine,Control System,Display Panel,Show status information,Display malfunction,LED failure,No status indication,3,9,4,preventive,LED replacement,Replace display LEDs preventively
+Washing Machine,Control System,Display Panel,Show status information,Display malfunction,LED failure,No status indication,3,9,4,detective,Display testing,Test display functionality regularly
+Washing Machine,Control System,Display Panel,Accept user input,Button failure,Contact wear,Cannot select programs,4,8,6,preventive,Button protection,Install protective button covers
+Washing Machine,Control System,Display Panel,Accept user input,Button failure,Contact wear,Cannot select programs,4,8,6,detective,Button testing,Test button responsiveness
+Washing Machine,Control System,Timer,Control cycle duration,Timer malfunction,Clock circuit failure,Incorrect cycle timing,3,5,6,preventive,Circuit protection,Protect timer circuit from power surges
+Washing Machine,Control System,Timer,Control cycle duration,Timer malfunction,Clock circuit failure,Incorrect cycle timing,3,5,6,detective,Timing verification,Verify timer accuracy regularly
+Washing Machine,Control System,Safety Interlock,Prevent operation when unsafe,Interlock failure,Switch malfunction,Safety risk,3,6,9,preventive,Switch maintenance,Clean and lubricate safety switches
+Washing Machine,Control System,Safety Interlock,Prevent operation when unsafe,Interlock failure,Switch malfunction,Safety risk,3,6,9,detective,Safety testing,Test safety interlock function monthly
+Washing Machine,Control System,Emergency Stop,Stop operation immediately,Stop function fails,Button mechanism failure,Cannot stop machine,2,7,8,preventive,Button maintenance,Maintain emergency stop mechanism
+Washing Machine,Control System,Emergency Stop,Stop operation immediately,Stop function fails,Button mechanism failure,Cannot stop machine,2,7,8,detective,Stop testing,Test emergency stop function weekly
+Washing Machine,Drum Assembly,Wash Drum,Contain clothes during wash,Drum damage,Metal fatigue,Clothes damage,2,8,7,preventive,Load management,Install automatic load balancing
+Washing Machine,Drum Assembly,Wash Drum,Contain clothes during wash,Drum damage,Metal fatigue,Clothes damage,2,8,7,detective,Drum inspection,Visual inspection of drum surface
+Washing Machine,Drum Assembly,Wash Drum,Rotate for washing action,Drum imbalance,Uneven loading,Excessive vibration,6,8,6,preventive,Load sensing,Install load distribution sensing
+Washing Machine,Drum Assembly,Wash Drum,Rotate for washing action,Drum imbalance,Uneven loading,Excessive vibration,6,8,6,detective,Vibration monitoring,Monitor washing cycle vibration
+Washing Machine,Drum Assembly,Drum Bearings,Support drum rotation,Bearing failure,Lubrication loss,Noisy operation,4,7,6,preventive,Lubrication schedule,Regular bearing lubrication
+Washing Machine,Drum Assembly,Drum Bearings,Support drum rotation,Bearing failure,Lubrication loss,Noisy operation,4,7,6,detective,Noise monitoring,Monitor bearing noise levels
+Washing Machine,Drum Assembly,Drum Bearings,Support drum rotation,Bearing wear,Normal usage,Increased friction,6,7,5,preventive,Quality bearings,Use high-quality sealed bearings
+Washing Machine,Drum Assembly,Drum Bearings,Support drum rotation,Bearing wear,Normal usage,Increased friction,6,7,5,detective,Performance monitoring,Monitor drum rotation smoothness
+Washing Machine,Drum Assembly,Drum Seal,Prevent water leakage,Seal deterioration,Rubber aging,Water leakage,5,6,7,preventive,Seal replacement,Replace door seal every 4 years
+Washing Machine,Drum Assembly,Drum Seal,Prevent water leakage,Seal deterioration,Rubber aging,Water leakage,5,6,7,detective,Leak detection,Install water leak sensors
+Washing Machine,Drum Assembly,Drum Door,Provide access to drum,Door latch failure,Mechanism wear,Door won't close,4,8,7,preventive,Latch lubrication,Lubricate door latch mechanism
+Washing Machine,Drum Assembly,Drum Door,Provide access to drum,Door latch failure,Mechanism wear,Door won't close,4,8,7,detective,Latch testing,Test door latch operation
+Washing Machine,Drum Assembly,Drum Door,Maintain water seal,Door seal damage,Physical damage,Water leakage,4,6,7,preventive,Seal protection,Install door seal protector
+Washing Machine,Drum Assembly,Drum Door,Maintain water seal,Door seal damage,Physical damage,Water leakage,4,6,7,detective,Seal inspection,Regular door seal inspection
+Washing Machine,Drum Assembly,Suspension System,Reduce vibration,Suspension failure,Spring fatigue,Excessive vibration,4,7,6,preventive,Spring replacement,Replace suspension springs every 6 years
+Washing Machine,Drum Assembly,Suspension System,Reduce vibration,Suspension failure,Spring fatigue,Excessive vibration,4,7,6,detective,Vibration analysis,Analyze suspension performance‚
